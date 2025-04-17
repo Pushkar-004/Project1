@@ -1,0 +1,230 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main_page {
+    display: flex;
+    height: 90vh;
+    width: 100vw;
+}
+
+.main_page1 {
+    height: 100%;
+    width: 66.6%;
+    display: inline-block;
+}
+.imgs{
+    margin-left: 2rem;
+}
+img {
+    height: 100%;
+    width: 45ve;
+    object-fit: contain;
+    /* margin-left: 4.2vw; */
+}
+
+:any-link {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 3.5vh;
+    justify-content: space-between;
+    margin-top: 3vh;
+}
+
+.nav-link {
+    padding-right: 1vw;
+}
+
+#pricing {
+    margin-right: 2.5vw;
+}
+
+#About {
+    margin-right: 5.3vw;
+}
+
+.nav-header {
+    margin-left: 4.5vw;
+}
+
+.center-box1 {
+    width: 28vw;
+    margin-top: 30vh;
+    margin-left: 16.6vw;
+}
+
+.content3 {
+    width: 25vw;
+    margin-left: 16.6vw;
+    margin-top: 6vh;
+}
+
+#btn1, #btn2 {
+    border: 0.5px solid ;
+    border-radius: 47px;
+    height: 2.2rem;
+    width: 6.5rem;
+    font-size: 0.9rem;
+}
+
+#btn1 {
+    background-color: #25DAC5;
+    color: white;
+}
+
+#btn2 {
+    color: #1E0E62;
+}
+
+#para1 {
+    margin-top: 0.8rem;
+    font-size: 0.85rem;
+}
+
+.secondPage {
+    background-image: url(./Image.png);
+    height: 40rem;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secotitle {
+    width: 27rem;
+    height: 7rem;
+    text-align: center;
+    margin-top: 4.5rem;
+    color: white;
+}
+
+.cardbox {
+    display: flex;
+    gap: 0.7rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.card1 {
+    border: 0.5px solid white;
+    height: 19rem;
+    width: 14.5rem;
+    text-align: center;
+    color: white;
+    border-radius: 1.25rem;
+    padding: 1rem;
+    font-size: 0.95rem;
+}
+
+#thunderbolt {
+    height: 2.8rem;
+    width: 2.8rem;
+    margin-top: 1.5rem;
+}
+
+.cardbtn {
+    border-radius: 2.5rem;
+    height: 2.2rem;
+    width: 6.5rem;
+    background-color: #E93A7D;
+    color: white;
+    margin-top: 0.5rem;
+}
+
+.pg3 {
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+.ct1 {
+    text-align: center;
+    height: 10rem;
+    width: 25rem;
+    margin-top: 4.5rem;
+    font-size: 1rem;
+}
+
+#pg3btn {
+    margin-top: 1.2rem;
+    border-radius: 1.5rem;
+    height: 2.5rem;
+    width: 8.5rem;
+    border: 0.5px solid #15143966;
+    font-size: 0.9rem;
+}
+
+.profile {
+    height: 18rem;
+    width: 50rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2.5rem;
+    gap: 1rem;
+}
+
+.prf {
+    border: 0.5px solid #15143966;
+    height: 16.5rem;
+    width: 15rem;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.userpic {
+    height: 6.5rem;
+    width: 6.5rem;
+    border-radius: 50%;
+    margin-top: 1.5rem;
+}
+
+.icon1 {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 0 0.5rem;
+}
+
+.icons {
+    justify-content: space-evenly;
+    display: flex;
+    height: 2.5rem;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.footer {
+    height: 12.5rem;
+    background-color: #1E0E62;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.last {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50rem;
+    margin-top: 2rem;
+}
+
+a {
+    color: white;
+}
+
+#pricing, #About {
+    color: #1E0E62;
+}
